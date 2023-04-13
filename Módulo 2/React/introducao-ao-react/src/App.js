@@ -7,7 +7,8 @@ function App() {
     const words = "Hello World"
      return  [
       words,
-      words.toLowerCase()
+      words.toLowerCase(),
+      words.toUpperCase()
     ]
   }
 
