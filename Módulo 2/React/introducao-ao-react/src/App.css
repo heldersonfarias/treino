@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+.App {
+    background-color: #fafafa;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ul {
+    width: 80%;
+    list-style:decimal;
+    font-weight: bold;
+}
