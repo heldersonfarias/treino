@@ -9,7 +9,8 @@ function App() {
       words,
       words.toLowerCase(),
       words.toUpperCase(),
-      words.split('').reverse().join('')
+      words.split('').reverse().join(''),
+      words.split('').join(' ')
     ]
   }
 
