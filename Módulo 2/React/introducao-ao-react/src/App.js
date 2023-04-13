@@ -6,7 +6,8 @@ function App() {
   function getHelloWorlds(){
     const words = "Hello World"
      return  [
-      words
+      words,
+      words.toLowerCase()
     ]
   }
 
