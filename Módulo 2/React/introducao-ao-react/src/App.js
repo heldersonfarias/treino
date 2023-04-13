@@ -14,7 +14,8 @@ function App() {
       words.split(' ').reverse().join(' '),
       '#' + words.split(' ').join(''),
       toBase(words, 2),
-      toBase(words, 8)
+      toBase(words, 8),
+      toBase(words, 16)
     ]
   }
 
