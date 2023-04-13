@@ -13,6 +13,7 @@ function App() {
       words.split('').join(' '),
       words.split(' ').reverse().join(' '),
       '#' + words.split(' ').join(''),
+      toBase(words, 2)
     ]
   }
 
