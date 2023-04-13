@@ -10,7 +10,8 @@ function App() {
       words.toLowerCase(),
       words.toUpperCase(),
       words.split('').reverse().join(''),
-      words.split('').join(' ')
+      words.split('').join(' '),
+      words.split(' ').reverse().join(' ')
     ]
   }
 
