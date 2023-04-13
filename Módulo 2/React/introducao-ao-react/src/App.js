@@ -8,7 +8,8 @@ function App() {
      return  [
       words,
       words.toLowerCase(),
-      words.toUpperCase()
+      words.toUpperCase(),
+      words.split('').reverse().join('')
     ]
   }
 
